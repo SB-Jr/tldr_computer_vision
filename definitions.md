@@ -93,3 +93,11 @@ $ G*A$
 - **Minimum Internal Difference**
 
   $M\ Int(C_1,C_2) = min(Int(C_1) + \tau(C_1), Int(C_2) + \tau(C_2))$ where $\tau(C) = \frac{k}{|C|}$
+
+
+
+
+
+# Reference
+
+[1]:https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html
