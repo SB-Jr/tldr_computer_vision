@@ -71,3 +71,5 @@ we will have the following segmentation when using k=50, k = 100 and k=1000
 #  Reference
 
 [1]: definitions.md
+
+[2]: [https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html]
