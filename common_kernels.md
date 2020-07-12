@@ -23,3 +23,9 @@ $$
 -1 & -2 & -1
 \end{bmatrix} \ast \mathbf{A}
 $$
+
+
+
+# Reference
+
+[1]:https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html
