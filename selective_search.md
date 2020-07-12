@@ -33,3 +33,8 @@ We have the following parameter to tune to get different results
 - Changing color space of the image
 - Similarity measure operation
 
+
+
+# Reference
+
+[1]:https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html
