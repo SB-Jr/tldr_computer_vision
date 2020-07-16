@@ -13,8 +13,6 @@ There are multiple techniques used for bluring:
 
 There are more but these the most widely used.
 
-
-
 ## Average Blurring
 
 **Average blurring** is taking the average of all the pixel values under the given kernel area and replace the value at the center.
@@ -39,8 +37,6 @@ OpenCV implementation:
 img_blurred = cv.blur(img, ksize=(s,s))
 ```
 
-
-
 ## Median Blurring
 
 **Medium blurring** is the same with average blurring except that it uses the median value instead of the average. Therefore when we have to handle sudden noises in the image such as ‘[salt and pepper noise](https://en.wikipedia.org/wiki/Salt-and-pepper_noise),’ it’ll be better to use medium blurring than average blurring.
@@ -50,7 +46,7 @@ kernel_size = 5
 img_blurred = cv2.medianBlur(img, kernel_size)
 ```
 
-
+<img title="" src="../assets/blur_avg.png" alt="">
 
 ## Gaussian Blurring
 
@@ -63,8 +59,6 @@ In the kernel for gaussian blur, the values of the kernel go higher near the cen
 ```python
 img_blurred = cv2.GaussianBlur(img, ksize=(5,5), sigmaX = 0)
 ```
-
-
 
 ## Bilateral Filtering
 
@@ -79,10 +73,10 @@ kernel_size = 5
 img_blurred = cv2.bilateralFilter(img, kernel_size, sigmaSpace=75, sigmaColor=75)
 ```
 
+<img src='../assets/blur.png' />
+
 
 
 # Reference
 
 [1]: https://towardsdatascience.com/computer-vision-for-beginners-part-2-29b3f9151874
-
-
