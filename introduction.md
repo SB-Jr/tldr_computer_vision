@@ -36,8 +36,6 @@ img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 img_hls = cv2.cvtColor(img, cv2.COLOR_BGR2HLS)
 ```
 
-
-
 ## Drawing on Image
 
 **Note: Remember to make a copy of the image before drawing as the actual image passed as parameter get edited in place of a new copy.**
@@ -66,3 +64,7 @@ cv2.putText(img_copy, text=txt, org=(x,y)
 ```
 
 
+
+# Reference
+
+[1]: https://towardsdatascience.com/computer-vision-for-beginners-part-1-7cca775f58ef
