@@ -63,8 +63,6 @@ cv2.putText(img_copy, text=txt, org=(x,y)
             lineType=cv2.LINE_AA)
 ```
 
-
-
 # Reference
 
 [1]: https://towardsdatascience.com/computer-vision-for-beginners-part-1-7cca775f58ef
