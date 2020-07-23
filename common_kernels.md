@@ -11,6 +11,7 @@ $$
 ## Sobel Operator
 
 To emphasize the impact of directly adjacent pixels more, they get assigned with higher weights.
+
 $$
 \mathbf{G}_x = \begin{bmatrix}
 -1 & 0 & +1 \\
@@ -23,8 +24,6 @@ $$
 -1 & -2 & -1
 \end{bmatrix} \ast \mathbf{A}
 $$
-
-
 
 # Reference
 
